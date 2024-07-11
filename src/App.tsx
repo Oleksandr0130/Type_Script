@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+// Lessons Import
+import Lesson6 from "./lessons/Lesson6/Lesson6";
+import Lesson7 from "./lessons/Lesson7/Lesson7";
+
+// HomeWorks import
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div className="App">
+    {/* <Lesson6 /> */}
+    <Lesson7 />
+  </div>;
 }
 
 export default App;
