@@ -1,0 +1,25 @@
+.homework7-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+    padding: 40px;
+    background-color: rgb(127, 127, 128);
+}
+
+.car-card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 20px;
+min-width: 300px;
+min-height: 300px;
+border-radius: 6px;
+background-color: white;
+color: rgb(41, 18, 63);
+font-size: 24px;
+}
