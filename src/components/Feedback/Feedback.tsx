@@ -1,10 +1,15 @@
-import "./styles.css";
+import {
+  FeedbackContainer,
+  FeedbackResultContainer,
+  LikeDislikeContainer,
+  Result
+} from "./styles";
 import Button from "../Button/Button";
 import { useState } from "react";
 
 function Feedback() {
   const [like, setLike] = useState<number>(0);
-  const [dislike, setDislike] = useState(0);
+  const [dislike, setDislike] = useState<number>(0);
 
   const addLike = (): void => {
     setLike((prevV) => prevV + 1);
@@ -22,19 +27,19 @@ function Feedback() {
   };
 
   return (
-    <div className="feedback-container">
-      <div className="feedback-result-container">
-        <div className="like-dislike-container">
-          <div className="result">{like}</div>
+    <FeedbackContainer>
+      <FeedbackResultContainer>
+        <LikeDislikeContainer>
+          <Result>{like}</Result>
           <Button name="LIKE" onButtonClick={addLike} />
-        </div>
-        <div className="like-dislike-container">
+        </LikeDislikeContainer>
+        <LikeDislikeContainer>
           <Button name="DISLIKE" onButtonClick={addDislike} />
-          <div className="result">{dislike}</div>
-        </div>
-      </div>
+          <Result>{dislike}</Result>
+        </LikeDislikeContainer>
+      </FeedbackResultContainer>
       <Button name="RESET RESULTS" onButtonClick={resetResults} />
-    </div>
+    </FeedbackContainer>
   );
 }
 
