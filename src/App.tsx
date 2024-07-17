@@ -1,26 +1,33 @@
-import "./App.css";
+import GlobalStyles from './styles/GlobalStyles';
 
-// Lessons Import
-import Lesson6 from "./lessons/Lesson6/Lesson6";
-import Lesson7 from "./lessons/Lesson7/Lesson7";
-import Lesson8 from "./lessons/Lesson8/Lesson8";
+//Lessons import 
+// import Lesson06 from './lessons/Lesson06/Lesson06';
+// import Lesson07 from './lessons/Lesson07/Lesson07';
+// import Lesson08 from './lessons/Lesson08/Lesson08';
+// import Lesson09 from './lessons/Lesson09/Lesson09';
+import Lesson10 from './lessons/Lesson10/Lesson10';
 
-// HomeWorks import
-import HomeWork7 from "./homeworks/HomeWork7/HomeWork7";
-import Lesson09 from "./lessons/Lesson9/Lesson9";
-import Homework08 from "./homeworks/HomeWork8/HomeWork8";
 
+//Homeworks import 
+// import Homework07 from './homeworks/Homework07/Homework07';
+// import Homework08 from './homeworks/Homework08/Homework08';
+// import Homework09 from './homeworks/Homework09/Homework09';
 
 
 function App() {
-  return <div className="App">
-    {/* <Lesson6 /> */}
-    {/* <Lesson7 /> */}
-    {/* <HomeWork7 /> */}
-    {/* <Lesson8 /> */}
-    {/* <Homework08 /> */}
-    <Lesson09 />
-  </div>;
+  return (
+    <>
+      <GlobalStyles />
+      {/* <Lesson06 /> */}
+      {/* <Lesson07/> */}
+      {/* <Homework07 /> */}
+      {/* <Lesson08/> */}
+      {/* <Homework08 /> */}
+      {/* <Lesson09 /> */}
+      {/* <Homework09/> */}
+      <Lesson10 />
+    </>
+  );
 }
 
 export default App;
