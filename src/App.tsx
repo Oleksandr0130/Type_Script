@@ -1,3 +1,4 @@
+import HomeWork13 from "homeworks/HomeWork13/HomeWork13";
 import GlobalStyles from "./components/styles/GlobalStyles";
 
 //Lessons import
@@ -31,7 +32,8 @@ function App() {
       {/* <Homework10 /> */}
       {/* <Lesson11 /> */}
       {/* <Homework11 /> */}
-      <Lesson12 />
+      {/* <Lesson12 /> */}
+      <HomeWork13 />
     </>
   );
 }
