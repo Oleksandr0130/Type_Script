@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { CatFact } from './types';
 import { AppContainer, Button, DataBlock, DataItem } from './styles';
 import LoadingSpinner from './LoadingSpinner';
+import { v4 } from 'uuid';
 
 const HomeWork13 = () => {
   const [catFacts, setCatFacts] = useState<CatFact[]>([]);
@@ -36,8 +37,8 @@ const HomeWork13 = () => {
 
     return (
       <DataBlock>
-        {catFacts.map((fact, index) => (
-          <DataItem key={index}>
+        {catFacts.map((fact) => (
+          <DataItem key={v4()}>
             {fact.fact}
           </DataItem>
         ))}
