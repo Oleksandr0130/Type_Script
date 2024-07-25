@@ -9,6 +9,7 @@ import Home from 'pages/Home/Home';
 import Users from 'pages/Users/Users';
 import About from 'pages/About/About';
 import Lesson16 from "lessons/Lesson16/Lesson16";
+import Weather from "pages/Weather/Weather";
 
 //Lessons import
 // import Lesson06 from './lessons/Lesson06/Lesson06';
@@ -59,7 +60,7 @@ function App() {
         </Routes>
       </Layout> */}
 
-      <Lesson16 />
+      {/* <Lesson16 /> */}
     </BrowserRouter>
 
   );
