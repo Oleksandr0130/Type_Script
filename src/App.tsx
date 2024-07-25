@@ -8,6 +8,7 @@ import Layout from "components/Layout/Layout";
 import Home from 'pages/Home/Home';
 import Users from 'pages/Users/Users';
 import About from 'pages/About/About';
+import Lesson16 from "lessons/Lesson16/Lesson16";
 
 //Lessons import
 // import Lesson06 from './lessons/Lesson06/Lesson06';
@@ -18,6 +19,7 @@ import About from 'pages/About/About';
 // import Lesson11 from './lessons/Lesson11/Lesson11';
 // import Lesson12 from "./lessons/Lesson12/Lesson12";
 // import Lesson14 from "lessons/Lesson14/Lesson14";
+
 
 //Homeworks import
 // import Homework07 from './homeworks/Homework07/Homework07';
@@ -49,14 +51,17 @@ function App() {
       {/* <Lesson14 /> */}
       
       {/* Lesson15 exepmle with pages */}
-      <Layout>
+      {/* <Layout>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/users' element={<Users />} />
           <Route path='/about' element={<About />} />
         </Routes>
-      </Layout>
+      </Layout> */}
+
+      <Lesson16 />
     </BrowserRouter>
+
   );
 }
 

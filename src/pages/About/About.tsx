@@ -1,8 +1,13 @@
-import { AboutPages, Title } from "./styles"
+import GoBack from "components/GoBack/GoBack";
+import { AboutPage, Title } from "./styles";
 
-function About(){
-    return <AboutPages>
-        <Title>About page content</Title>
-    </AboutPages>
+function About() {
+  return (
+    <AboutPage>
+      <Title>About page content</Title>
+      <GoBack />
+    </AboutPage>
+  )
 }
+
 export default About
