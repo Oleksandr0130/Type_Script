@@ -1,0 +1,15 @@
+npm install @emotion/react
+
+npm install @emotion/styled
+
+npm install formik
+
+npm install yup
+
+npm install uuid
+
+npm i --save-dev @types/uuid
+
+npm install react-router-dom
+
+npm install axios
