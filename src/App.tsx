@@ -52,17 +52,17 @@ function App() {
       {/* <Lesson14 /> */}
       
       {/* Lesson15 exepmle with pages */}
-      {/* <Layout>
+      <Layout>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/users' element={<Users />} />
           <Route path='/about' element={<About />} />
         </Routes>
-      </Layout> */}
+      </Layout>
 
       {/* <Lesson16 /> */}
 
-      <Weather />
+      {/* <Weather /> */}
     </BrowserRouter>
 
   );
